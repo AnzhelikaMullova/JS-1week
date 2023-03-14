@@ -24,20 +24,21 @@ const greetings = "Привет";
 const name1 = "Кот";
 console.log(greetings + "," + name1);
 
-let time=0;
+let time=" ";
 console.log(time);
+time =34;
 console.log('Старт поездки. Осталось минут: ' + time);
-
+time = time-15;
 console.log('Немного сторис в соцсетях. Осталось минут: ' + time);
-
+time = time-10;
 console.log('Немного не новостей, но событий. Осталось минут: ' + time);
-
+time = time-9;
 console.log('Вы приехали. Добро пожаловать в Москву ');
 
 
 let  fahrenheit=451;
 
-let celsius=235.7;
+let celsius=(fahrenheit-32)/1.8;;
 console.log(`${fahrenheit} градуса по Фаренгейту — это ${celsius} градуса по Цельсию.`);
 
 
